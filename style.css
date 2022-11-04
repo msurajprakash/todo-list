@@ -42,7 +42,7 @@ a {
 }
 
 .nav-items {
-  width: 40%;
+  width: 60%;
   display: flex;
   list-style-type: none;
   justify-content: space-between;
@@ -154,4 +154,15 @@ a {
   display: block;
   margin: auto;
   margin-top: 1rem;
+}
+
+
+@media (max-width:576px){
+  .todo-list span {
+    font-size: .8rem;
+  }
+
+  .todo-btn {
+    padding: .2rem;
+  }
 }
